@@ -1,0 +1,144 @@
+
+body{
+    background: url(https://sun1-16.userapi.com/k2DiuLKRwYfuhRHBC-Ux-lmZ0gzdyYVhiLxhGg/WDvyDnDa_hA.jpg) repeat;
+    font-family: Bradley Hand, cursive;
+}
+
+.h{
+    width: 350px;
+}
+.header{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;   
+    line-height: 0.7;
+    
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.social-all{
+    padding-top: 20px;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 50px;
+    margin-top: 0.1;
+}
+section{
+      border:7px solid #ca8179;
+  }
+.opis{
+    background-color: orange;
+    
+
+}
+.button{
+    top: 100%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ca8179;
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 300px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.button::before,
+.button::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #ca8179;
+    top: 0;
+    left: -100%;
+    opacity: .2;
+    transition: .3s;
+    z-index: -1;
+    border: White;
+}
+.button::after{
+    opacity: 1;
+    transition-delay: .1s;
+}
+button:hover{
+    color: white;
+}
+.button:hover::before,
+.button:hover::after{
+    left: 0;
+}
+.social-all{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.instagram a:hover {background: #3f729b; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.vvod{
+    background-color: orange;
+}
+.choice{
+    display: inline-block;
+    text-align: center;
+    font-size: 60px;
+    width: 32%;
+}
+
+.IMG{
+    display: inline-block;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.word{
+    font-size: 300%;
+    /* display: inline-block; */
+    text-align: center;
+}
+.wait{
+    text-align: center;
+}
+.tipob{
+    font-size: 70px;
+    margin-left: 38%;
+    cursor: pointer;
+    display: inline-block;
+}
+.button2{
+    text-align: center;
+}
+a:visited{color: black;}
+a:hover{color: black;}
+a:active{color: black;}
+.dif{
+    text-align: center;
+}
